@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Figtree";
+    src: url("assets/fonts/static/Figtree-Medium.ttf");
+}
+@font-face {
+    font-family: "Figtree-bold";
+    src: url("assets/fonts/static/Figtree-ExtraBold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+:root {
+    /*Colors*/
+    --yellow: #F4D04E;
+    --gray-950: #111111;
+    --gray-500: #6B6B6B;
+    --white: #FFFFFF;
+
+}
+
+body{
+    background: var(--yellow);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    display: flex;
+    flex-direction: column;
+   gap: 0.75rem;
+}
+article{
+    background: var(--white);
+    width: 20.5rem;
+    height: 31.5rem;
+    color: var(--gray-950);
+
+    border: 1px solid var(--gray-950);
+
+    header{
+        font-family: Figtree, sans-serif;
+        font-size: 0.75rem;
+        line-height: 150%;
+        letter-spacing: 0;
+
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+
+
+    }
+
+    h1{
+        font-family: Figtree-bold, sans-serif;
+        font-size: 1.25rem;
+        line-height: 150%;
+        letter-spacing: 0;
+    }
+
+    > img{
+        width: 17.5rem;
+        height: 12.5rem;
+
+        object-fit: cover;
+
+
+        margin: 1.5rem;
+    }
+}
+
+footer{
+    font-family: Figtree-bold, sans-serif;
+    font-size: 0.875rem;
+    line-height: 150%;
+    letter-spacing: 0;
+
+    margin-top: 0.75rem;
+
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+
+    img{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+
+#category{
+    background: var(--yellow);
+    width: fit-content;
+    padding:0.25rem  0.75rem;
+    margin-top: -4px;
+
+
+    font-family: Figtree-bold, sans-serif;
+    font-size: 0.75rem;
+    line-height: 150%;
+    letter-spacing: 0;
+
+}
+
+#card-text{
+    margin: 1.5rem;
+    margin-top: 0;
+
+}
+#main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+
+    p {color: var(--gray-500);
+        font-family: Figtree, sans-serif;
+        line-height: 150%;
+        letter-spacing: 0;
+        font-size: 0.875rem;
+
+    }
+
+
+}
