@@ -49,6 +49,7 @@ article{
 
     @media (min-width: 1440px){
         width: 24rem;
+        height: 32.625rem;
     }
 
     border: 1px solid var(--gray-950);
@@ -162,7 +163,7 @@ footer{
         font-size: 0.875rem;
 
         @media (min-width: 1440px){
-            font-size: ;
+            font-size: 1rem ;
 
         }
 
