@@ -139,10 +139,11 @@ footer{
     background: var(--yellow);
     width: fit-content;
     padding:0.25rem  0.75rem;
-    margin-top: -4px;
     border-radius: 0.25rem;
 
     font-family: Figtree-bold, sans-serif;
+
+
 
 }
 
