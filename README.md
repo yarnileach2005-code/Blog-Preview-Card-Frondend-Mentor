@@ -1,4 +1,5 @@
 ﻿# Frontend Mentor - Blog preview card solution
+ Link to Challenge can be found [here](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 ## Table of contents
 - [Overview](#overview)
     - [The challenge](#the-challenge)
@@ -38,6 +39,27 @@ Users should be able to:
 ### What I learned
 - how to work with media queries 
 - how to work with pseudo classes
+```css
+article:hover{
+
+    h1{
+        color: var(--yellow);
+    }
+    box-shadow: 16px 16px black;
+}
+
+article:focus{
+
+    h1{
+        color: var(--yellow);
+    }
+    box-shadow: 16px 16px black;
+}
+
+```
+
+
+
 - using nested flexbox
 - working with images
   - deciding when images are semantically meaningful and when they are just decoration
